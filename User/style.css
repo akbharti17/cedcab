@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+#click{
+   width: 100%;  
+}
+select {
+    appearance: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.t1{
+    position: relative;
+    left: 35%;
+    background-color: #CCE500;
+    border-radius: 10px;
+    width: 25%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #CCE500;
+}
+.r1{
+    width: 40%;
+}
+
+#bg{
+    background-color:#F5F5F5;
+    border-radius: 10px;
+}
+body{
+    background-image: url("../User/00000000383.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Rubik', sans-serif;
+    overflow: auto;
+}
+input[type=button]{
+    background-color: #CCE500;
+}
+.t2,.t3{
+    color: white;
+}
+.b1{
+    background-color: red;
+    color: white;
+}
+
+@media (min-width: 245px) and (max-width: 767px) {
+    .r1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+}
+
+@media (min-width: 568px) and (max-width: 1000px) {
+    .r1{
+    width: 40%;
+    margin-bottom: 100px;
+}
+.footer {
+    position: none;
+
+}
+
+}
+
+
+@media screen and (max-width: 540px){
+    .r1{
+        width: 100%;
+    }
+    body{
+        background-image: none;
+        background-color: bisque;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .t2{
+        color: black;
+        font-size: 5vw;
+    }
+    .t3{
+        color: black;
+        font-size: 4vw;
+    }
+    .t1{
+        position: relative;
+        left: 35%;
+        font-size: 3vw;
+        background-color: #CCE500;
+        border-radius: 10px;
+        width: 25%;
+    }
+    .txt3{
+        font-size: 3vw;
+    }
+    .footer {
+        position: none;
+    
+    }
+    
+  }
+
+  /* @media screen and (max-width: 600px){
+     #bg{
+         width: 100%;
+     }
+    .t2{
+        color: black;
+        font-size: 5vw;
+    }
+    .t3{
+        color: black;
+        font-size: 4vw;
+    }
+    .t1{
+        position: relative;
+        left: 35%;
+        font-size: 3vw;
+        background-color: #CCE500;
+        border-radius: 10px;
+        width: 25%;
+    }
+    .txt3{
+        font-size: 3vw;
+    }
+    
+  } */
+  
