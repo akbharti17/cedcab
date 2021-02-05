@@ -14,7 +14,7 @@ if (isset($_SESSION['email'])) {
    VALUES ('$pickpt','$droppt','$cabtype','$distance','$wt','$tfair','1','$usrid')";
 
    if ($conn->query($q) === TRUE) {
-      header('Refresh:1; url= ../User/userdashboard.php');
+      header('Refresh:0; url= ../User/userdashboard.php');
       // echo "New record created successfully";
       header("location:");
       echo "<script>alert('Your Ride Booked Successfully but pending from Admin side');</script>";

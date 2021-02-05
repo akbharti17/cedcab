@@ -58,7 +58,7 @@ if (!isset($_SESSION['email'])) // If session is not set then redirect to Login 
     <!-- <h1>User Dashboard</h1> -->
 
     <!--Pending Rides-->
-    <div class="container-fluid" id="pendingridetbl">
+    <div class="container-fluid" id="pendingridetbl" style="min-height: 520px;">
         <h1 class="text-center">Pending Rides</h1>
         <label>Filter By :</label>
         <input oninput="w3.filterHTML('#pndTbl', '.item', this.value)" placeholder="Search for names and filter">
@@ -112,7 +112,7 @@ if (!isset($_SESSION['email'])) // If session is not set then redirect to Login 
     <!--End of Pending Ride-->
 
     <!--Completed Rides-->
-    <div class="container-fluid" id="compRide">
+    <div class="container-fluid" id="compRide" style="min-height: 520px;">
         <h1 class="text-center">Completed Rides</h1>
         <label>Filter By :</label>
         <input oninput="w3.filterHTML('#cmpTbl', '.item', this.value)" placeholder="Search for names and filter">
@@ -164,7 +164,7 @@ if (!isset($_SESSION['email'])) // If session is not set then redirect to Login 
     <!--End of Completed Ride-->
 
     <!--Cancel Rides-->
-    <div class="container-fluid" id="allride">
+    <div class="container-fluid" id="allride" style="min-height: 520px;">
         <h1 class="text-center">Cancel Rides</h1>
         <label>Filter By :</label>
         <input oninput="w3.filterHTML('#cnlTbl', '.item', this.value)" placeholder="Search for names and filter">
@@ -227,7 +227,7 @@ if (!isset($_SESSION['email'])) // If session is not set then redirect to Login 
     <!--End of Cancel Ride-->
 
     <!--Change password -->
-    <div class="container-fluid" id="cpasswsection">
+    <div class="container-fluid" id="cpasswsection" style="min-height: 520px;">
         <h1 class="text-center">Change Password</h1>
         <div class="row">
             <div class="col-sm-4"></div>
@@ -304,7 +304,7 @@ if (!isset($_SESSION['email'])) // If session is not set then redirect to Login 
     ?>
     <!--End of Total expences -->
 
-    <div class="container my-3" id="tabs">
+    <div class="container my-3" id="tabs" style="min-height: 520px;">
         <div class="row">
             <div class="col-sm-3 py-2 text-center">
                 <div class="card h-100 border-primary bg1">

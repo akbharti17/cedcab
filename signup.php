@@ -14,7 +14,7 @@
 <body onload="disable()">
     <?php include("header.php"); ?>
 
-    <div class="container-fluid my-3">
+    <div class="container-fluid my-3" style="min-height: 530px;">
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
@@ -23,7 +23,7 @@
                     <label for="email">Email</label>
                     <div class="row">
                         <div class="col-sm-9"><input type="text" class="form-control" placeholder="Enter Email" id="email" required></div>
-                        <div class="col-sm-3"><input type="button" id="sendemailotp" class="btn btn-success" value="send otp"></div>
+                        <div class="col-sm-3 my-2"><input type="button" id="sendemailotp" class="btn btn-success" value="send otp"></div>
                     </div>
                     <div class="row">
                         <div class="col-sm-9"><input type="text" class="form-control" placeholder="Enter otp" id="emailotpval" required></div>
@@ -43,10 +43,10 @@
 
                 </div>
                 <form id="myForm">
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="Username">Username</label>
                         <input type="text" class="form-control" placeholder="Enter Username" id="username" required>
-                    </div>
+                    </div> -->
                     <div class="form-group">
                         <label for="email">Name</label>
                         <input type="text" class="form-control" placeholder="Enter name" id="name" required>
@@ -201,7 +201,7 @@
                     data: {
                         email: email,
                         mobile: mobile,
-                        usrid: usrid,
+                        // usrid: usrid,
                         name: name,
                         pass: pass
                     },

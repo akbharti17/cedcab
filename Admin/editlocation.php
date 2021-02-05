@@ -44,7 +44,7 @@ $row = $result->fetch_assoc();
 
 <body>
     <?php include("header.php");  ?>
-    <div class="container-fluid">
+    <div class="container-fluid" style="min-height: 550px;">
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-sm-4">

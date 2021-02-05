@@ -59,9 +59,9 @@ if (isset($_POST['edit'])) {
             color: white;
         }
 
-        table {
+        /* table {
             min-height: 460px;
-        }
+        } */
 
         #alluser,
         #cancelRide,
@@ -83,7 +83,7 @@ if (isset($_POST['edit'])) {
     <?php include("header.php");  ?>
 
     <!-- All user Table -->
-    <div class="container-fluid" id="alluser">
+    <div class="container-fluid" id="alluser" style="min-height: 550px;">
         <table class="table table-striped text-center">
             <thead>
                 <tr>
@@ -120,7 +120,7 @@ if (isset($_POST['edit'])) {
     <!-- End of All user Table -->
 
     <!-- Ride Req Table -->
-    <div class="container-fluid" id="ridereq">
+    <div class="container-fluid" id="ridereq" style="min-height: 550px;">
         <h1 class="text-center">Ride Requests</h1>
         <label>Filter By :</label>
         <input oninput="w3.filterHTML('#dest', '.item', this.value)" placeholder="Filter for names..">
@@ -172,7 +172,7 @@ if (isset($_POST['edit'])) {
     <!--End of ride Req table -->
 
     <!--Completed Ride Table-->
-    <div class="container-fluid" id="completedRide">
+    <div class="container-fluid" id="completedRide" style="min-height: 550px;">
         <h1 class="text-center">Completed Rides</h1>
         <label>Filter By :</label>
         <input oninput="w3.filterHTML('#compTble', '.item', this.value)" placeholder="Filter for names..">
@@ -217,7 +217,7 @@ if (isset($_POST['edit'])) {
     <!--End completed Ride Table-->
 
     <!--Cancel Ride Table-->
-    <div class="container-fluid" id="cancelRide">
+    <div class="container-fluid" id="cancelRide" style="min-height: 550px;">
         <h1 class="text-center">Cancel Rides</h1>
         <label>Filter By :</label>
         <input oninput="w3.filterHTML('#cancelTbl', '.item', this.value)" placeholder="Filter for names..">
@@ -264,7 +264,7 @@ if (isset($_POST['edit'])) {
     <!--End cancel Ride Table-->
 
     <!--All Ride Table-->
-    <div class="container-fluid" id="allRide">
+    <div class="container-fluid" id="allRide" style="min-height: 550px;">
         <h1 class="text-center">All Rides</h1>
         <label>Filter By :</label>
         <input oninput="w3.filterHTML('#allRideTbl', '.item', this.value)" placeholder="Filter for names..">
@@ -317,12 +317,12 @@ if (isset($_POST['edit'])) {
     <!--End All Ride Table-->
 
     <!--Block user Table-->
-    <div class="container-fluid" id='blockuser'>
+    <div class="container-fluid" id='blockuser' style="min-height: 550px;">
         <h1 class="text-center">Block User</h1>
         <table class="table table-striped text-center">
             <thead>
                 <tr>
-                    <th>Username</th>
+                    <th>User_Id</th>
                     <th>Email</th>
                     <th>Name</th>
                     <th>DateOfSignUp</th>
@@ -359,12 +359,12 @@ if (isset($_POST['edit'])) {
     <!--End block user Table-->
 
     <!--Unblock user Table-->
-    <div class="container-fluid" id='unblockuser'>
+    <div class="container-fluid" id='unblockuser' style="min-height: 550px;">
         <h1 class="text-center">Unblocked User</h1>
         <table class="table table-striped text-center">
             <thead>
                 <tr>
-                    <th>Username</th>
+                    <th>User_Id</th>
                     <th>Email</th>
                     <th>Name</th>
                     <th>DateOfSignUp</th>
@@ -401,7 +401,7 @@ if (isset($_POST['edit'])) {
     <!--End Unblock user Table-->
 
     <!--Service Location-->
-    <div class="container-fluid" id='location'>
+    <div class="container-fluid" id='location' style="min-height: 550px;">
         <h1 class="text-center">Service Locations</h1>
         <table class="table table-striped text-center">
             <thead>
@@ -442,7 +442,7 @@ if (isset($_POST['edit'])) {
     <!--Service Location End-->
 
     <!--add new Location-->
-    <div class="container-fluid" id="addnewloc">
+    <div class="container-fluid" id="addnewloc" style="min-height: 550px;">
         <h1 class="text-center">Add New Location</h1>
         <div class="row">
             <div class="col-sm-4"></div>
@@ -475,7 +475,7 @@ if (isset($_POST['edit'])) {
     <!-- end of add new location-->
 
     <!-- Change Password-->
-    <div class="container-fluid" id="cpasswsection">
+    <div class="container-fluid" id="cpasswsection" style="min-height: 550px;">
         <h1 class="text-center">Change Your Password</h1>
         <div class="row">
             <div class="col-sm-4"></div>
@@ -512,7 +512,7 @@ if (isset($_POST['edit'])) {
 
     ?>
 
-    <div class="container-fluid" id="changeprofile">
+    <div class="container-fluid" id="changeprofile" style="min-height: 550px;">
         <h1 class="text-center">Update Profile</h1>
         <div class="row">
             <div class="col-sm-4"></div>
@@ -539,7 +539,7 @@ if (isset($_POST['edit'])) {
     <!--End of update profile  -->
 
 
-    <div class="container" id="home">
+    <div class="container" id="home" style="min-height: 550px;">
         <div class="row">
             <div class="col-sm-3 py-2 text-center">
                 <div class="card h-100 border-primary bg1">
