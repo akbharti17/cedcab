@@ -11,7 +11,6 @@ if (isset($_POST['edit'])) {
     `name`='$name',`distance`='$dist',`is_available`='$is_avail' WHERE id='$id'";
     if ($conn->query($q) === TRUE) {
         echo "<script>alert('Updated successfully');</script>";
-        // header("location: admindashboard.php");
         header('Refresh:0; url=admindashboard.php');
 
     } else {
